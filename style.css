@@ -1,0 +1,96 @@
+.container {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 30px 50px; 
+    grid-template-areas: 
+      "Grupa-A Grupa-B "
+      "Grupa-C Grupa-D "
+      "Grupa-E Grupa-F "
+      "Grupa-G Grupa-H "; 
+  }
+  h1 {
+      border-bottom: 1px solid black;
+      margin-top: 2px;
+      margin-bottom: 0px;
+  }
+ ol {
+     list-style-position: inside;
+ }
+ ol>li {
+     padding: 4px 0px;
+     margin: 0px 0px;
+ }
+  .Grupa-A { 
+      grid-area: Grupa-A;
+      justify-self: center;
+      align-self: center;
+      width: 100%;
+      background-color: grey;
+    text-align: center;
+    font-size: larger;
+}
+  .Grupa-B {
+       grid-area: Grupa-B;
+       width: 100%;
+       justify-self: center;
+      align-self: center;
+       background-color: grey;
+       text-align: center;
+       font-size: larger;
+ }
+  .Grupa-C {
+       grid-area: Grupa-C;
+       width: 100%;
+       justify-self: center;
+      align-self: center;
+       background-color: grey;
+       text-align: center;
+       font-size: larger;
+ }
+  .Grupa-D { 
+      grid-area: Grupa-D;
+      width: 100%;
+      justify-self: center;
+      align-self: center;
+      background-color: grey;
+      text-align: center;
+      font-size: larger;
+ }
+  .Grupa-E { 
+      grid-area: Grupa-E;
+      width: 100%;
+      justify-self: center;
+      align-self: center;
+      background-color: grey;
+      text-align: center;
+      font-size: larger;
+ }
+  .Grupa-F { 
+      grid-area: Grupa-F; 
+      width: 100%;
+      justify-self: center;
+      align-self: center;
+      background-color: grey;
+      text-align: center;
+      font-size: larger;
+}
+  .Grupa-G { 
+      grid-area: Grupa-G;
+      width: 100%;
+      justify-self: center;
+      align-self: center;
+      background-color: grey;
+      text-align: center;
+      font-size: larger;
+ }
+  .Grupa-H {
+       grid-area: Grupa-H;
+       width: 100%;
+       justify-self: center;
+      align-self: center;
+       background-color: grey;
+       text-align: center;
+       font-size: larger;
+ }
